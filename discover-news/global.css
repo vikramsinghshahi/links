@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+/* Base tokens / minor tweaks */
+:root {
+  --page-bg: 255 255 255; /* white */
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: rgb(var(--page-bg));
+}
+
+.prose img {
+  border-radius: 1rem;
+}
